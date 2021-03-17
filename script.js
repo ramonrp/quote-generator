@@ -6,7 +6,7 @@ const quoteContainer = document.querySelector("#quote-container")
 async function getQuote() {
 
   const endpoint = "https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en";
-  const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+  const proxyUrl = 'https://whispering-tor-04671.herokuapp.com/'
   try {
     quoteContainer.hidden = true;
     loader.hidden = false;
